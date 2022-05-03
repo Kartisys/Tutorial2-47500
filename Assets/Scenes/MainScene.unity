@@ -3655,7 +3655,7 @@ GameObject:
   - component: {fileID: 1284508277}
   - component: {fileID: 1284508275}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: FaderCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3888,6 +3888,7 @@ GameObject:
   - component: {fileID: 1844055487}
   - component: {fileID: 1844055489}
   - component: {fileID: 1844055488}
+  - component: {fileID: 1844055490}
   m_Layer: 5
   m_Name: ExitImageBackground
   m_TagString: Untagged
@@ -3953,6 +3954,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1844055486}
   m_CullTransparentMesh: 1
+--- !u!225 &1844055490
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844055486}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2138288578
 GameObject:
   m_ObjectHideFlags: 0
