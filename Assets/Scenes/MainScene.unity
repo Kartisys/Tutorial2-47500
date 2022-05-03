@@ -182,7 +182,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeDuration: 1
-  player: {fileID: 0}
+  displayImageDuration: 1
+  player: {fileID: 1669849004}
+  exitBackgroundImageCanvasGroup: {fileID: 1844055490}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -3848,6 +3850,12 @@ Transform:
 --- !u!4 &1669350284 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3830977512325894608, guid: 7f9e2ae0f2260f242aecd5f4de513c26,
+    type: 3}
+  m_PrefabInstance: {fileID: 3830977513978434140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1669849004 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3830977512326188528, guid: 7f9e2ae0f2260f242aecd5f4de513c26,
     type: 3}
   m_PrefabInstance: {fileID: 3830977513978434140}
   m_PrefabAsset: {fileID: 0}
